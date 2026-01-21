@@ -7,9 +7,6 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-body{
-    background-color:antiquewhite;
-}
 nav{
     display: flex;
     justify-content: space-between;
