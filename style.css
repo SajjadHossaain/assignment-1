@@ -46,6 +46,15 @@ nav .btn{
     padding: 12px 16px;
     color: #FFFFFF;
     font-weight: 600;
+    cursor: pointer;
+}
+nav .btn:hover{
+    background-color: #B6F500;
+    transition: 0.5s;
+}
+nav li a:hover{
+    color: #F95555;
+    transition: 0.5s;
 }
 /* design hero container */
 #hero{
@@ -124,6 +133,10 @@ nav .btn{
     color: #FFFFFF;
     border-radius: 4px;
 }
+.hero-container .btn-container .btn-1:hover{
+    background-color: #B6F500;
+    transition: 0.5s;
+}
 .hero-container .btn-container .btn-2{
     width: 198px;
     height: 44px;
@@ -134,6 +147,11 @@ nav .btn{
     font-weight: 600;
     color: #FFFFFF;
     padding: 12px 16px;
+}
+.hero-container .btn-container .btn-2:hover{
+    color: #F95555;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 /* Content Section */
 #content{
@@ -258,7 +276,6 @@ nav .btn{
     width: 1280px;
     height: 113px;
     margin: 0 auto;
-    /* margin: 80px 40px 24px; */
     text-align: center;
     margin-bottom: 24px;
 }
@@ -286,6 +303,10 @@ nav .btn{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
+}
+.access-btn button:hover{
+    background-color: #B6F500;
+    transition: 0.5s;
 }
 .access-btn p{
     margin-top: 16px;
