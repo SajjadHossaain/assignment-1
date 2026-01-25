@@ -12,7 +12,6 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
-    max-width: 1600px;
     height: 92px;
     margin: 0 auto;
 }
@@ -50,17 +49,16 @@ nav .btn{
 }
 /* design hero container */
 #hero{
-    display: flex;
-    max-width:1600px;
+    max-width: 1600px;
     height: 674px;
     margin: 0 auto;
     background: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
 }
 #hero .hero-container{
     margin: 0 auto;
-    width: 1360px;
+    padding: 115.5px 120px 179.5px;
     height: 380px;
-    margin: 115px 120px 179px;
 }
 #hero .intro{
     display: flex;
@@ -254,13 +252,15 @@ nav .btn{
     width: 1360px;
     height: 385px;
     margin: 0 auto;
+    padding-top: 80px;
 }
 .access-container .access-heading{
     width: 1280px;
     height: 113px;
     margin: 0 auto;
-    margin: 80px 40px 24px;
+    /* margin: 80px 40px 24px; */
     text-align: center;
+    margin-bottom: 24px;
 }
 .access-container .access-heading h1{
     margin-bottom: 16px;
@@ -293,4 +293,45 @@ nav .btn{
     line-height: 20px;
     font-size: 16px;
     font-weight: 400;
+}
+footer{
+    height: 348px;
+    margin: 0 auto;
+    background-color: #001931;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding:120px 120px 80px;
+}
+.footer-container .footer-social h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.footer-container .footer-social ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+.copy-right{
+    width: 1360px;
+    height: 24px;
+    margin: 0 auto ;
+    text-align: center;
+}
+.copy-right hr{
+    color: #FAFAFA;
+    opacity: 0.2;
+    margin-bottom: 30px;
+}
+.copy-right p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
