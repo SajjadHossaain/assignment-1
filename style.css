@@ -7,10 +7,11 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+/* Navigation */
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: #FFFFFF;
     max-width: 1600px;
     height: 92px;
     margin: 0 auto;
@@ -136,6 +137,7 @@ nav .btn{
     color: #FFFFFF;
     padding: 12px 16px;
 }
+/* Content Section */
 #content{
     max-width: 1600px;
     height: 448px;
@@ -198,4 +200,97 @@ nav .btn{
     align-items: center;
     margin-top: 16px;
     text-align:center;
+}
+/* Solution Section */
+#solution .solution-container{
+    display: flex;
+    gap: 60px;
+    max-width: 1600px;
+    height: 840px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center ;
+}
+.solution-container .solution-item2{
+    width: 700px;
+    height: 397px;
+}
+.solution-container .solution-item2 h4{
+    color: #469165;
+    margin-bottom: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.solution-container .solution-item2 h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.solution-container .solution-item2 p{
+    color: #627382;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.solution-container ul{
+    list-style: none;
+    font-weight: 500;
+    line-height: 20px;
+}
+.solution-container ul li{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+/* Access Section */
+#early-acceess{
+    max-width: 1600px;
+    height: 507px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+#early-acceess .access-container{
+    width: 1360px;
+    height: 385px;
+    margin: 0 auto;
+}
+.access-container .access-heading{
+    width: 1280px;
+    height: 113px;
+    margin: 0 auto;
+    margin: 80px 40px 24px;
+    text-align: center;
+}
+.access-container .access-heading h1{
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.access-container .access-heading p{
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+}
+.access-container .access-btn{
+    text-align: center;
+}
+.access-btn button{
+    width: 194px;
+    height: 52px;
+    background-color: #469165;
+    border:none;
+    border-radius: 4px;
+    padding: 16.5px 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+.access-btn p{
+    margin-top: 16px;
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
 }
